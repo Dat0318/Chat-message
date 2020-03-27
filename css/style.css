@@ -1,0 +1,152 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #555;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 100;
+}
+input, textarea, a, button {
+	outline: 0;
+}
+a {
+	text-decoration: none
+}
+ul li {
+	list-style: none;
+}
+.clearfix {
+	clear: both;
+}
+.danger {
+	background-color: #d9534f;
+}
+.success {
+	background-color: #5cb85c
+}
+ 
+/* Navbar */
+.main-navbar {
+	border-bottom: 1px solid #e5e5e5;
+	padding: 15px;
+	text-align: center;
+}
+.main-navbar h1 {
+	color: #428bca;
+}
+/* Form Login & Register */
+.box-join {
+	padding: 20px 10px;
+	text-align: center;
+	}
+#formJoin .data-input {
+	border: 1px solid #ccc;
+	color: #555;
+	display: block;
+	font-size: 15px;
+	margin-top: 10px;
+	margin: auto; 
+	max-width: calc(100% - 16px);
+	padding: 8px 7px; 
+	width: 300px;
+	}
+#formJoin .btn-submit {
+	background-color: #428bca;
+	border: 1px solid #428bca;
+	color: #fff;
+	font-size: 15px; 
+	margin-top: 10px;
+	padding: 8px 15px;
+	}
+#formJoin .btn-submit:hover {
+	cursor: pointer;
+	opacity: 0.9;
+}
+#formJoin .alert {
+	color: #fff;
+	display: none;
+	margin-top: 10px;
+	margin: auto;
+	padding: 8px 7px;
+	text-align: left;
+	width: 300px;
+}
+
+/* Menu */
+.main-menu {
+	padding: 3px 3% 0px;
+	border-bottom: 1px solid #e5e5e5;
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-menu h1 {
+	color: #428bca;
+	display: inline-block;
+	font-size: 20px;
+	}
+.main-menu a {
+	display: inline-block;
+	float: right;
+	color: #555;
+	font-size: 20px;
+	margin-left: 15px;
+}
+
+/* Form chat */
+.box-chat {
+	border-top: 1px solid #e5e5e5;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	}
+#formSendMsg input[type=text] {
+	color: #555;
+	font-size: 15px;
+	padding: 3px 10px;
+	width: calc(100% - 60px);
+	font-size: 13px;
+ 	}
+/* Show chat */
+.main-chat {
+	height: auto;
+	padding: 67px 10px 38px 10px;
+	}
+.main-chat .msg-user {
+	margin-bottom: 10px;
+	text-align: right;
+	width: 100%;
+	}
+.main-chat .msg-user p {
+	background-color: #428bca;
+	color: #fff;
+	display: inline-block;
+	font-size: 15px;
+	padding: 10px;
+	}
+.main-chat .msg {
+	margin-bottom: 10px;
+	text-align: left;
+	width: 100%;
+	}
+.main-chat .msg p {
+	background-color: #f1f1f1;
+	color: #555;
+	display: inline-block;
+	font-size: 15px;
+	padding: 10px;
+	}
+.main-chat .msg-user .info-msg-user,
+.main-chat .msg .info-msg {
+	color: #666;
+	font-size: 13px;
+	margin-top: 5px;
+	}
